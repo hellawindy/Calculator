@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>Calculator</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/font-awesome.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+        <header><p>Hatama's Calculator</p></header>
+        <form id = 'calc'>
+            <div class = 'container'>
+                <input id = 'screen' class = "col-xs-12 form-control"/>
+                <div id = 'numpad' class = "conatiner">
+                    <div class = "row">
+                        <div class="col-xs-3"><button class = 'btn btn-info col-xs-12' value = 1>1</button></div>
+                        <div class="col-xs-3"><button class = 'btn btn-info col-xs-12' value = 2>2</button></div>
+                        <div class="col-xs-3"><button class = 'btn btn-info col-xs-12' value = 3>3</button></div>
+                        <div class="col-xs-3"><button class = 'btn btn-info col-xs-12' value = 'C'>C</button></div>
+                    </div>
+                    <div class = "row">
+                        <div class="col-xs-3"><button class = 'btn btn-info col-xs-12' value = 4>4</button></div>
+                        <div class="col-xs-3"><button class = 'btn btn-info col-xs-12' value = 5>5</button></div>
+                        <div class="col-xs-3"><button class = 'btn btn-info col-xs-12' value = 6>6</button></div>
+                        <div class="col-xs-2"><button class = 'btn btn-info col-xs-12' value = '-'>-</button></div>
+                        <div class="col-xs-1 "><button class = 'btn btn-info col-xs-12' value = '*'>*</button></div>
+                    </div>
+                    <div class = "row">
+                        <div class="col-xs-3"><button class = 'btn btn-info col-xs-12' value =7>7</button></div>
+                        <div class="col-xs-3"><button class = 'btn btn-info col-xs-12' value = 8>8</button></div>
+                        <div class="col-xs-3"><button class = 'btn btn-info col-xs-12' value = 9>9</button></div>
+                        <div class="col-xs-2"><button class = 'btn btn-info col-xs-12' value = '+'>+</button></div>
+                        <div class="col-xs-1 "><button class = 'btn btn-info col-xs-12' value = '/'>/</button></div>
+                    </div>
+                    <div class = "row">
+                        <div class="col-xs-6"><button class = 'btn btn-info col-xs-12' value = 0>0</button></div>
+                        <div class="col-xs-3"><button class = 'btn btn-info col-xs-12' value = ','>,</button></div>
+                        <div class="col-xs-3"><submit class = 'btn btn-info col-xs-12' value = 'submit'>=</submit></div>
+                    </div>
+                </div>           
+            </div>
+        </form>
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

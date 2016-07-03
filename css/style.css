@@ -1,0 +1,22 @@
+
+
+#numpad div {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.row {
+    margin-bottom: 10px;
+    
+}
+#screen {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+header p {
+    margin: 10px auto;
+    font-size: 4em;
+    text-align: center;
+    font-family: monospace;
+    
+}
